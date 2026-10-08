@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Our Story ❤️</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            background: #fff8f8;
+            color: #352b2d;
+            line-height: 1.6;
+        }
+
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 30px;
+            background:
+                radial-gradient(circle at top left, #ffdfe5, transparent 40%),
+                radial-gradient(circle at bottom right, #eadfff, transparent 40%),
+                #fff8f8;
+        }
+
+        .hero-content {
+            max-width: 500px;
+        }
+
+        .heart {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .small-title {
+            font-size: 13px;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            color: #9d777d;
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            font-family: Georgia, serif;
+            font-size: clamp(48px, 14vw, 82px);
+            font-weight: 400;
+            line-height: 1;
+            margin-bottom: 20px;
+        }
+
+        .subtitle {
+            font-family: Georgia, serif;
+            font-size: 20px;
+            color: #765f63;
+            font-style: italic;
+            margin-bottom: 35px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 14px 25px;
+            border-radius: 30px;
+            background: #352b2d;
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+            letter-spacing: 1px;
+        }
+
+        section {
+            padding: 80px 25px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .section-label {
+            font-size: 12px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: #a67880;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-family: Georgia, serif;
+            font-size: 38px;
+            font-weight: 400;
+            margin-bottom: 25px;
+        }
+
+        .story-card {
+            background: white;
+            padding: 30px;
+            border-radius: 25px;
+            box-shadow: 0 10px 40px rgba(80, 50, 60, 0.08);
+            margin-top: 25px;
+        }
+
+        .story-card p {
+            color: #66595c;
+            margin-bottom: 15px;
+        }
+
+        .timeline {
+            position: relative;
+            margin-top: 40px;
+            padding-left: 25px;
+            border-left: 2px solid #ead2d7;
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 45px;
+        }
+
+        .timeline-item::before {
+            content: "";
+            position: absolute;
+            left: -34px;
+            top: 5px;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            background: #c58b96;
+            border: 4px solid #fff8f8;
+        }
+
+        .date {
+            font-size: 12px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #a67880;
+            margin-bottom: 5px;
+        }
+
+        .timeline-item h3 {
+            font-family: Georgia, serif;
+            font-size: 24px;
+            margin-bottom: 8px;
+        }
+
+        .memory-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin-top: 30px;
+        }
+
+        .memory {
+            aspect-ratio: 1;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 20px;
+            background: linear-gradient(135deg, #f3d9df, #e8def5);
+            color: #6b555a;
+            font-family: Georgia, serif;
+        }
+
+        .journal-card {
+            background: #352b2d;
+            color: white;
+            padding: 30px;
+            border-radius: 25px;
+            margin-top: 30px;
+        }
+
+        .journal-card .date {
+            color: #d9afb7;
+        }
+
+        .journal-card p {
+            color: #eee4e6;
+            margin-top: 15px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 50px 20px;
+            color: #987f84;
+            font-family: Georgia, serif;
+        }
+
+        @media (max-width: 500px) {
+            section {
+                padding: 65px 20px;
+            }
+
+            h2 {
+                font-size: 32px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HERO -->
+    <header class="hero">
+
+        <div class="hero-content">
+
+            <div class="heart">❤️</div>
+
+            <div class="small-title">
+                Our little story
+            </div>
+
+            <h1>
+                Gryska<br>
+                ×<br>
+                Your Person
+            </h1>
+
+            <p class="subtitle">
+                It all started with a hello...
+            </p>
+
+            <a href="#story" class="button">
+                READ OUR STORY
+            </a>
+
+        </div>
+
+    </header>
+
+
+    <!-- OUR STORY -->
+    <section id="story">
+
+        <div class="section-label">
+            Chapter One
+        </div>
+
+        <h2>
+            How We Met
+        </h2>
+
+        <div class="story-card">
+
+            <p>
+                This is where our story begins.
+            </p>
+
+            <p>
+                Write here how you first met, where it happened,
+                what you thought about each other, and all the
+                little details you don't want to forget.
+            </p>
+
+            <p>
+                Maybe one day we'll look back at this and laugh
+                about how everything started.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- TIMELINE -->
+    <section>
+
+        <div class="section-label">
+            Our Journey
+        </div>
+
+        <h2>
+            The Timeline
+        </h2>
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+
+                <div class="date">
+                    September 2026
+                </div>
+
+                <h3>
+                    The First Hello
+                </h3>
+
+                <p>
+                    The day our story officially started.
+                </p>
+
+            </div>
+
+
+            <div class="timeline-item">
+
+                <div class="date">
+                    September 2026
+                </div>
+
+                <h3>
+                    Our First Conversation
+                </h3>
+
+                <p>
+                    Somehow, one conversation became many.
+                </p>
+
+            </div>
+
+
+            <div class="timeline-item">
+
+                <div class="date">
+                    October 2026
+                </div>
+
+                <h3>
+                    Getting Closer
+                </h3>
+
+                <p>
+                    And here we are.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- MEMORIES -->
+    <section>
+
+        <div class="section-label">
+            Little Moments
+        </div>
+
+        <h2>
+            Memories
+        </h2>
+
+        <div class="memory-grid">
+
+            <div class="memory">
+                First photo 📸
+            </div>
+
+            <div class="memory">
+                First date 🥹
+            </div>
+
+            <div class="memory">
+                Random moments 😂
+            </div>
+
+            <div class="memory">
+                More memories ❤️
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- JOURNAL -->
+    <section>
+
+        <div class="section-label">
+            Every Day
+        </div>
+
+        <h2>
+            Our Journal
+        </h2>
+
+        <div class="journal-card">
+
+            <div class="date">
+                October 9, 2026
+            </div>
+
+            <h3>
+                Today's little memory
+            </h3>
+
+            <p>
+                This is where we'll eventually be able to
+                write something new every day.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        Made with ❤️ for our story.
+
+        <br><br>
+
+        <small>
+            More chapters coming soon...
+        </small>
+
+    </footer>
+
+</body>
+</html>
